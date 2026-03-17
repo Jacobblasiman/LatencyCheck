@@ -15,12 +15,10 @@
 $Sites = @{
     "Latency_google_com"     = "google.com"
     "Latency_bing_com"       = "bing.com"
-    "Latency_momsmeals_com"  = "momsmeals.com"
-    "Latency_microsoft_com"  = "microsoft.com"
-    "Latency_amazon_com"     = "amazon.com"
     "Latency_cloudflare_com" = "cloudflare.com"
-    "Latency_github_com"     = "github.com"
     "Latency_office_com"     = "office.com"
+    "Latency_yahoo_com"      = "yahoo.com"
+    "Latency_zoom_us"        = "zoom.us"
 }
 
 $PingCount = 4

@@ -29,48 +29,6 @@
       ]
     },
     {
-      "SettingName": "Latency_momsmeals_com",
-      "Operator": "LessThan",
-      "DataType": "Double",
-      "Operand": 150,
-      "MoreInfoUrl": "https://learn.microsoft.com/mem/intune/protect/compliance-custom-script",
-      "RemediationStrings": [
-        {
-          "Language": "en_US",
-          "Title": "High latency to momsmeals.com. Measured {ActualValue} ms.",
-          "Description": "The average latency to momsmeals.com exceeds 150 ms. Check your network connection, VPN, or DNS settings."
-        }
-      ]
-    },
-    {
-      "SettingName": "Latency_microsoft_com",
-      "Operator": "LessThan",
-      "DataType": "Double",
-      "Operand": 150,
-      "MoreInfoUrl": "https://learn.microsoft.com/mem/intune/protect/compliance-custom-script",
-      "RemediationStrings": [
-        {
-          "Language": "en_US",
-          "Title": "High latency to microsoft.com. Measured {ActualValue} ms.",
-          "Description": "The average latency to microsoft.com exceeds 150 ms. Check your network connection, VPN, or DNS settings."
-        }
-      ]
-    },
-    {
-      "SettingName": "Latency_amazon_com",
-      "Operator": "LessThan",
-      "DataType": "Double",
-      "Operand": 150,
-      "MoreInfoUrl": "https://learn.microsoft.com/mem/intune/protect/compliance-custom-script",
-      "RemediationStrings": [
-        {
-          "Language": "en_US",
-          "Title": "High latency to amazon.com. Measured {ActualValue} ms.",
-          "Description": "The average latency to amazon.com exceeds 150 ms. Check your network connection, VPN, or DNS settings."
-        }
-      ]
-    },
-    {
       "SettingName": "Latency_cloudflare_com",
       "Operator": "LessThan",
       "DataType": "Double",
@@ -85,20 +43,6 @@
       ]
     },
     {
-      "SettingName": "Latency_github_com",
-      "Operator": "LessThan",
-      "DataType": "Double",
-      "Operand": 150,
-      "MoreInfoUrl": "https://learn.microsoft.com/mem/intune/protect/compliance-custom-script",
-      "RemediationStrings": [
-        {
-          "Language": "en_US",
-          "Title": "High latency to github.com. Measured {ActualValue} ms.",
-          "Description": "The average latency to github.com exceeds 150 ms. Check your network connection, VPN, or DNS settings."
-        }
-      ]
-    },
-    {
       "SettingName": "Latency_office_com",
       "Operator": "LessThan",
       "DataType": "Double",
@@ -109,6 +53,34 @@
           "Language": "en_US",
           "Title": "High latency to office.com. Measured {ActualValue} ms.",
           "Description": "The average latency to office.com exceeds 150 ms. Check your network connection, VPN, or DNS settings."
+        }
+      ]
+    },
+    {
+      "SettingName": "Latency_yahoo_com",
+      "Operator": "LessThan",
+      "DataType": "Double",
+      "Operand": 150,
+      "MoreInfoUrl": "https://learn.microsoft.com/mem/intune/protect/compliance-custom-script",
+      "RemediationStrings": [
+        {
+          "Language": "en_US",
+          "Title": "High latency to yahoo.com. Measured {ActualValue} ms.",
+          "Description": "The average latency to yahoo.com exceeds 150 ms. Check your network connection, VPN, or DNS settings."
+        }
+      ]
+    },
+    {
+      "SettingName": "Latency_zoom_us",
+      "Operator": "LessThan",
+      "DataType": "Double",
+      "Operand": 150,
+      "MoreInfoUrl": "https://learn.microsoft.com/mem/intune/protect/compliance-custom-script",
+      "RemediationStrings": [
+        {
+          "Language": "en_US",
+          "Title": "High latency to zoom.us. Measured {ActualValue} ms.",
+          "Description": "The average latency to zoom.us exceeds 150 ms. Check your network connection, VPN, or DNS settings."
         }
       ]
     }
